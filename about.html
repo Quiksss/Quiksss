@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Mnie</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('tlo.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+        header, nav, footer {
+            background-color: rgba(0, 0, 0, 0.7); /* Przezroczyste tło */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5); /* Przezroczyste tło */
+            margin: 20px;
+            border-radius: 10px;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .table-container {
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>O Mnie</h1>
+</header>
+
+<nav>
+    <a href="index.html">Strona Główna</a>
+    <a href="about.html">O Mnie</a>
+    <a href="contact.html">Kontakt</a>
+</nav>
+
+<main class="content">
+    <section id="about">
+        <h2>O Mnie</h2>
+        <img src="popsmoke.jpg" alt="Twoje zdjęcie" style="width:200px;height:auto;">
+        <p>Nazywam się Fabian. Jestem pasjonatem gry Counter-Strike 2 i prowadzę kanał na YouTube, gdzie dzielę się poradnikami, gameplayami świata CS2.</p>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Tytuł Filmu</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>29 maj 2024</td>
+                        <td>Travis Scott - FE!N (CS2 Montage) [4k]</td>
+                        <td><a href="https://www.youtube.com/watch?v=Irb5RKWiqXc" target="_blank">Obejrzyj</a></td>
+                    </tr>
+                    <tr>
+                        <td>9 maj 2024</td>
+                        <td>Travis Scott - My Eyes (CS2 Montage) [4k]</td>
+                        <td><a href="https://www.youtube.com/watch?v=DCb9gRhqoLE&t=11s" target="_blank">Obejrzyj</a></td>
+                    </tr>
+                    <tr>
+                        <td>2024-06-10</td>
+                        <td>To be continued</td>
+                        <td><a href="https://www.youtube.com/shorts/1MK0o8w4Rw8" target="_blank">Obejrzyj</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024. Wszelkie prawa zastrzeżone.</p>
+</footer>
+
+</body>
+</html>
